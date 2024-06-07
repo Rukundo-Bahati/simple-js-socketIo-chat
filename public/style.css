@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+.app {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.screen {
+  display: none;
+  padding: 20px;
+}
+.screen.active {
+  display: block;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-input label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-input input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.form-input button {
+  padding: 10px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.form-input button:hover {
+  background-color: #218838;
+  border: 1px solid dodgerblue;
+  outline: 1px solid rgb(51, 0, 128);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+}
+.messages {
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat-screen .messages .message {
+  background: #bbb;
+  /* padding: 2rem; */
+}
+/* .chat-screen .messages .message .my-message {} */
+
+.message {
+  margin-bottom: 10px;
+}
+.message.my-message {
+  text-align: right;
+}
+.message .name {
+  font-weight: bold;
+}
+.update {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+  margin-bottom: 10px;
+}
+.typebox {
+  display: flex;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+}
+.typebox input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.typebox button {
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.typebox button:hover {
+  background-color: #0056b3;
+}
+
+#exit-chat {
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #1e0c61;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
