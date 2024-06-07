@@ -78,7 +78,11 @@
       renderMessage("update", update);
     });
     socket.on("chat", (message) => {
-      renderMessage("other", message);
+      // Check if the message is sent by the current user
+      if (message.username !== uname) {
+        renderMessage("other", message);
+      }
     });
+    
   });
 })();
