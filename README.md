@@ -1,5 +1,6 @@
 <h1>Simple Chat App with Vanilla JavaScript and Socket.IO</h1>
-(https://github.com/Rukundo-Bahati/simple-js-socketIo-chat/assets/150172206/a9c4ec01-a78f-4300-9cf3-12c4c074564d)
+![chat-image](https://github.com/Rukundo-Bahati/simple-js-socketIo-chat/assets/150172206/bcfc7946-4365-4173-b8b3-9dd3539aa008)
+
 
 This is a simple chat application built using vanilla JavaScript and Socket.IO. 
 It allows users to join a chat room, send messages, and see messages from other users in real-time.
