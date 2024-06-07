@@ -127,3 +127,32 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the gap between messages */
+}
+
+.message {
+  display: inline-block;
+  max-width: 70%; /* Adjust the maximum width of the message */
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.my-message {
+  align-self: flex-end; /* Align my messages to the right */
+  background-color: #dcf8c6; /* Background color for my messages */
+}
+
+.other-message {
+  align-self: flex-start; /* Align other messages to the left */
+  background-color: #e5e5ea; /* Background color for other messages */
+}
+
+.update {
+  align-self: center; /* Align updates to the center */
+  color: #777; /* Color for updates */
+}
