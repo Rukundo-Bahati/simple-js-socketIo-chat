@@ -1,5 +1,6 @@
 <h1>Simple Chat App with Vanilla JavaScript and Socket.IO</h1>
-![chat-image](https://github.com/Rukundo-Bahati/simple-js-socketIo-chat/assets/150172206/bcfc7946-4365-4173-b8b3-9dd3539aa008)
+
+<img src="./public/chat-image.png" />
 
 
 This is a simple chat application built using vanilla JavaScript and Socket.IO. 
